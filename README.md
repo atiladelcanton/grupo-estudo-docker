@@ -3,7 +3,7 @@
 ## Grade
 
 - [ ] Dockerinização API / Front
-     - [ ] 1 Encontro Teorico
+     - [X] 1 Encontro Teorico
      - [ ] 1 Encontro Prático
      - [ ] 1 Encontro Revisão
 

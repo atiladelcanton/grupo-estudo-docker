@@ -1,9 +1,13 @@
 # Grupo Estudo Docker
 
 <h1 align="center">
-    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+    <a href="https://www.docker.com/">🔗 Docker</a>
 </h1>
-<p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
+<p align="center">🚀 Bem vindo ao ambiente de estudo docker-swim-nginx-kubernetes</p>
+
+<h4 align="center"> 
+	🚧  Esse ambiente está em construção...  🚧
+</h4>
 
 ## Grade
 
@@ -52,3 +56,7 @@
     - [ ] 1 Encontro Teorico
     - [ ] 1 Encontro Prático
     - [ ] 1 Encontro Revisão
+
+
+<img alt="GitHub" src="https://img.shields.io/github/license/atiladelcanton/grupo-estudo-docker?label=MIT%20License">
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/atiladelcanton/grupo-estudo-docker">

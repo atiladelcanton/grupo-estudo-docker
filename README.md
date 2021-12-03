@@ -11,52 +11,49 @@
 
 ## Grade
 
-- [ ] Dockerinização API / Front
-     - [X] 1 Encontro Teorico
-     - [ ] 1 Encontro Prático
-     - [ ] 1 Encontro Revisão
+- [x] Dockerinização API
 
-- [ ] Docker Compose     
-    - [ ] 1 Encontro Teorico
-    - [ ] 1 Encontro Prático
-    - [ ] 1 Encontro Revisão
+- [x] Docker Compose
 
-- [ ] Docker Nginx     
-    - [ ] 1 Encontro Teorico
-    - [ ] 1 Encontro Prático
-    - [ ] 1 Encontro Revisão
+- [x] Docker Nginx
 
-- [ ] Docker Monitoramento / Log     
-    - [ ] 1 Encontro Teorico
-    - [ ] 1 Encontro Prático
-    - [ ] 1 Encontro Revisão
+- [ ] Dockerinização FRONT
+
+  - [ ] 1 Encontro Teorico
+  - [ ] 1 Encontro Prático
+  - [ ] 1 Encontro Revisão
+
+- [ ] Docker Monitoramento / Log
+  - [ ] 1 Encontro Teorico
+  - [ ] 1 Encontro Prático
+  - [ ] 1 Encontro Revisão
 
 ====================================================
 
-- [ ] Orquestração Swarm    
-    - [ ] 1 Encontro Teorico
-    - [ ] 1 Encontro Prático
-    - [ ] 1 Encontro Revisão
+- [ ] Orquestração Swarm
 
-- [ ] Orquestração Kubernets    
-    - [ ] 1 Encontro Teorico
-    - [ ] 1 Encontro Prático
-    - [ ] 1 Encontro Revisão
+  - [ ] 1 Encontro Teorico
+  - [ ] 1 Encontro Prático
+  - [ ] 1 Encontro Revisão
 
-====================================================
-
-- [ ] Microserviço    
-    - [ ] 1 Encontro Teorico
-    - [ ] 1 Encontro Prático
-    - [ ] 1 Encontro Revisão
+- [ ] Orquestração Kubernets
+  - [ ] 1 Encontro Teorico
+  - [ ] 1 Encontro Prático
+  - [ ] 1 Encontro Revisão
 
 ====================================================
 
-- [ ] Menssageria (RabbitMq / Apache Kafka)    
-    - [ ] 1 Encontro Teorico
-    - [ ] 1 Encontro Prático
-    - [ ] 1 Encontro Revisão
+- [ ] Microserviço
+  - [ ] 1 Encontro Teorico
+  - [ ] 1 Encontro Prático
+  - [ ] 1 Encontro Revisão
 
+====================================================
+
+- [ ] Menssageria (RabbitMq / Apache Kafka)
+  - [ ] 1 Encontro Teorico
+  - [ ] 1 Encontro Prático
+  - [ ] 1 Encontro Revisão
 
 <img alt="GitHub" src="https://img.shields.io/github/license/atiladelcanton/grupo-estudo-docker?label=MIT%20License">
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/atiladelcanton/grupo-estudo-docker">

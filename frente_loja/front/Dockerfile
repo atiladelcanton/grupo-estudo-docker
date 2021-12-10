@@ -1,11 +1,17 @@
-FROM node:latest
+# pull the base image
+FROM node:alpine
 
-WORKDIR /usr/src/app
+# set the working direction
+WORKDIR /app
 
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
+
+# install app dependencies
 COPY ./package*.json ./
 
 RUN npm install
 
-COPY . ./
 
-CMD [ "npm", "run", "dev" ]
+# start app
+CMD ["npm", "run","dev"]

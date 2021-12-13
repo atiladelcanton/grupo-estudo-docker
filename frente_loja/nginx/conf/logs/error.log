@@ -2,3 +2,5 @@
 2021/12/03 01:00:32 [emerg] 1#1: cannot load certificate "/ssl/certificate.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/ssl/certificate.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
 2021/12/10 01:22:41 [emerg] 1#1: host not found in upstream "web" in /etc/nginx/conf.d/api_clients.conf:54
 2021/12/10 01:31:12 [emerg] 1#1: host not found in upstream "app:3000" in /etc/nginx/conf.d/frante_loja.conf:2
+2021/12/13 14:27:43 [emerg] 1#1: host not found in upstream "app:3000" in /etc/nginx/conf.d/frante_loja.conf:2
+2021/12/13 16:28:23 [emerg] 1#1: host not found in upstream "app:3000" in /etc/nginx/conf.d/frante_loja.conf:2

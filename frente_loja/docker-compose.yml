@@ -32,13 +32,14 @@ services:
     networks:
       - app-network
   app:
-    build: 
+    build:
       context: "./front"
     container_name: app
     ports:
       - 8001:3000
+    stdin_open: true
     volumes:
-      - ./front:/app
+      - "./front:/usr/src/app"
     networks:
       - app-network
     restart: unless-stopped

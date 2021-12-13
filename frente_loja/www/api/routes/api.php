@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::get('/version',function(){
+    return response()->json(['versao'=>'1.0.0','status'=>'up'],200);
 });

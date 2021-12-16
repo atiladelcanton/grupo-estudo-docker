@@ -33,14 +33,14 @@ services:
       - app-network
   products-web:
     build:
-      context: "./products"
+      context: "./apiproducts"
       target: development
     container_name: products-web
     command: npm run start:debug
     ports:
       - "8002:3000"
     volumes:
-      - "./products:/usr/src/app"
+      - "./apiproducts:/usr/src/app"
 
     restart: unless-stopped
     networks:

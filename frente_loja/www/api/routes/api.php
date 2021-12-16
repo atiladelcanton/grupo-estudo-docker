@@ -1,24 +1,17 @@
 <?php
 
+<<<<<<< HEAD
 use App\Http\Controllers\{
     ClientController
 };
 use Illuminate\Http\Request;
+=======
+use App\Http\Controllers\ClientsController;
+>>>>>>> b85d74e2999e5599fa52195440740140cbf4b69e
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
-
-Route::get('/version',function(){
-    return response()->json(['versao'=>'1.0.0','status'=>'up'],200);
+Route::get('/version', function () {
+    return response()->json(['versao' => '1.0.0', 'status' => 'up'], 200);
 });
 
 Route::get('/client',[ClientController::class,'index']);

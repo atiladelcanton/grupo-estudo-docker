@@ -14,11 +14,10 @@ class ClientResource extends JsonResource
      */
     public function toArray($request)
     {
-        //return parent::toArray($request);
-        //dd($this);
-        return [
+        return parent::toArray($request);
+        /*return [
 
-            'NameClient'=>$this->name
-        ];
+            'Name'=>$this->name,
+        ];*/
     }
 }

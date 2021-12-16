@@ -27,7 +27,10 @@ class StoreUpdateClient extends FormRequest
         $id = $this->id ?? '';
 
         return [
-            'name'=>['required','min:3','max:255',"unique:clients,name,{$id},id"]
+            'name'=>['required','min:3','max:50',"unique:clients,name,{$id},id"],
+            'city'=>['required','min:3','max:50'],
+            'street'=>['required','min:3','max:50'],
+            'District'=>['required','min:3','max:50']
         ];
     }
 }

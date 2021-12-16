@@ -1,13 +1,9 @@
 <?php
 
-<<<<<<< HEAD
 use App\Http\Controllers\{
     ClientController
 };
 use Illuminate\Http\Request;
-=======
-use App\Http\Controllers\ClientsController;
->>>>>>> b85d74e2999e5599fa52195440740140cbf4b69e
 use Illuminate\Support\Facades\Route;
 
 Route::get('/version', function () {

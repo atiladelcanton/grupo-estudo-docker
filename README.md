@@ -11,17 +11,14 @@
 
 ## Grade
 
-- [x] Dockerinização API
+- [x] Dockerinização API (Clients, Products, Order)
 
 - [x] Docker Compose
 
 - [x] Docker Nginx
 
-- [ ] Dockerinização FRONT
+- [X] Dockerinização FRONT
 
-  - [ ] 1 Encontro Teorico
-  - [ ] 1 Encontro Prático
-  - [ ] 1 Encontro Revisão
 
 - [ ] Docker Monitoramento / Log
   - [ ] 1 Encontro Teorico

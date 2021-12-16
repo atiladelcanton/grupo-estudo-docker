@@ -31,6 +31,20 @@ services:
       - "./www:/var/www"
     networks:
       - app-network
+  products-web:
+    build:
+      context: "./apiproducts"
+      target: development
+    container_name: products-web
+    command: npm run start:debug
+    ports:
+      - "8002:3000"
+    volumes:
+      - "./apiproducts:/usr/src/app"
+
+    restart: unless-stopped
+    networks:
+      - app-network
   app:
     build:
       context: "./front"

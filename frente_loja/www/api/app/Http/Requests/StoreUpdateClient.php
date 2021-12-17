@@ -30,7 +30,7 @@ class StoreUpdateClient extends FormRequest
             'name'=>['required','min:3','max:50',"unique:clients,name,{$id},id"],
             'city'=>['required','min:3','max:50'],
             'street'=>['required','min:3','max:50'],
-            'District'=>['required','min:3','max:50']
+            'district'=>['required','min:3','max:50']
         ];
     }
 }

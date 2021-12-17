@@ -20,23 +20,11 @@ class ClientFactory extends Factory
     {
         return [
             'name' => $this->faker->name(),
-            'email' => $this->faker->unique()->safeEmail(),
-            'document' => $this->faker->cpf(),
-            'isActive' => $this->faker->boolean()
+            'city' => $this->faker->unique()->safeEmail(),
+            'street' => $this->faker->address(),
+            'district' => 'Vila Nogueira'
         ];
     }
 
-    /**
-     * Indicate that the model's email address should be unverified.
-     *
-     * @return \Illuminate\Database\Eloquent\Factories\Factory
-     */
-    public function unverified()
-    {
-        return $this->state(function (array $attributes) {
-            return [
-                'email_verified_at' => null,
-            ];
-        });
-    }
+
 }

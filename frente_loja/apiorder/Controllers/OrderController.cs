@@ -18,7 +18,7 @@ namespace apiorder.Controllers
             this.context = context;
         }
 
-        [HttpGet("home")]
+        [HttpGet("/")]
         public string home()
         {
             return "hello word";

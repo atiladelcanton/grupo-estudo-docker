@@ -1,0 +1,16 @@
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/apiorder
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/appsettings.Development.json
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/appsettings.json
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/apiorder.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/apiorder.runtimeconfig.json
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/apiorder.pdb
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/Microsoft.EntityFrameworkCore.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/Microsoft.EntityFrameworkCore.Relational.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/Microsoft.OpenApi.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/MySqlConnector.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/Pomelo.EntityFrameworkCore.MySql.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/Swashbuckle.AspNetCore.Swagger.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/build/apiorder.deps.json

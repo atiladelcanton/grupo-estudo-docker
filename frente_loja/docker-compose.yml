@@ -7,6 +7,7 @@ services:
     depends_on:
       - clients-web
       - app  
+      - orders-web
     ports:
       - "80:80"
       - "443:443"
@@ -19,6 +20,7 @@ services:
     links:
       - clients-web 
       - app
+      - orders-web
     networks:
      - app-network
   clients-web:
@@ -41,10 +43,19 @@ services:
       - "8002:3000"
     volumes:
       - "./apiproducts:/usr/src/app"
-
     restart: unless-stopped
     networks:
       - app-network
+  
+  orders-web:
+    build: 
+      context: "./apiorder" 
+    container_name: orders-web 
+    ports:
+      - 8003:80
+    networks:
+      - app-network
+  
   app:
     build:
       context: "./front"
@@ -63,4 +74,3 @@ services:
 networks: 
   app-network:
     driver: bridge
-    

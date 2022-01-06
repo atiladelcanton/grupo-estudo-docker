@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2021/12/27 14:52:32 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: order.frenteloja.local, request: "GET / HTTP/1.1", upstream: "http://172.25.0.2:8003/", host: "order.frenteloja.local"
 2021/12/27 14:52:33 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: order.frenteloja.local, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.25.0.2:8003/favicon.ico", host: "order.frenteloja.local", referrer: "http://order.frenteloja.local/"
 2021/12/27 14:52:45 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: order.frenteloja.local, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.25.0.2:8003/favicon.ico", host: "order.frenteloja.local", referrer: "http://order.frenteloja.local/"
@@ -20,3 +21,5 @@
 2021/12/27 15:01:46 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: order.frenteloja.local, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.25.0.2:8003/favicon.ico", host: "order.frenteloja.local", referrer: "http://order.frenteloja.local/order/api"
 2021/12/27 15:02:08 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: order.frenteloja.local, request: "GET / HTTP/1.1", upstream: "http://172.25.0.2:8003/", host: "order.frenteloja.local"
 2021/12/27 15:02:09 [error] 23#23: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.25.0.1, server: order.frenteloja.local, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.25.0.2:8003/favicon.ico", host: "order.frenteloja.local", referrer: "http://order.frenteloja.local/"
+=======
+>>>>>>> 19a67aecef27133814c0e0dc6522e6c66f42756b

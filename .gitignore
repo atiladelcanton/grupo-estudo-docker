@@ -1,3 +1,6 @@
 apiproducts/.env
 www/api/.env
 ./idea/*
+frente_loja/apiproducts/.env
+frente_loja/nginx/conf/logs/access.log
+frente_loja/nginx/conf/logs/error.log

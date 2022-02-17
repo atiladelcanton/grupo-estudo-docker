@@ -32,3 +32,8 @@
 /home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/obj/Debug/net6.0/ref/apiorder.dll
 /home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/obj/Debug/net6.0/apiorder.pdb
 /home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/obj/Debug/net6.0/apiorder.genruntimeconfig.cache
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/bin/Debug/net6.0/build/web.config
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/bin/Debug/net6.0/build/apiorder.deps.json
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/bin/Debug/net6.0/build/apiorder.runtimeconfig.json
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/bin/Debug/net6.0/build/appsettings.Development.json
+/home/marckvaldo/projetos/grupo-estudo-docker/frente_loja/apiorder/bin/Debug/net6.0/build/appsettings.json

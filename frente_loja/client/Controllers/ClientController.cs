@@ -30,6 +30,7 @@ namespace apiorder.Controllers
         {
             try
             {
+                requestClient.createdAt = DateTime.Now;
                 context.client.Add(requestClient);
                 await context.SaveChangesAsync();
                 return Created("Create Clinet",requestClient);

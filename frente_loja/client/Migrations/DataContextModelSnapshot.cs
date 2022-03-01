@@ -36,6 +36,18 @@ namespace client.Migrations
                     b.Property<string>("street")
                         .HasColumnType("longtext");
 
+                    b.Property<string>("cpf")
+                        .HasColumnType("longtext");  
+
+                    b.Property<string>("cep")
+                        .HasColumnType("longtext");  
+
+                    b.Property<DateTime>("createdAt")
+                        .HasColumnType("date"); 
+
+                    b.Property<DateTime>("updatedAt")
+                        .HasColumnType("date");
+
                     b.HasKey("id");
 
                     b.ToTable("client");

@@ -7,7 +7,7 @@ services:
     container_name: nginx-web
     depends_on:
       - clients-web
-      #- app  
+      - front  
       - orders-web
       - products-web
     ports:
@@ -39,11 +39,11 @@ services:
       context: "./apiproducts"
       target: development
     container_name: products-web
-    command: npm run start:debug
+    command: yarn start:dev
     ports:
       - "8002:3000"
-    #volumes:
-      #- "./apiproducts:/usr/src/app"
+    volumes:
+      - "./apiproducts:/usr/src/app"
     restart: unless-stopped
     networks:
       - app-network
@@ -57,17 +57,17 @@ services:
       - "./apiorder:/var/www"
     networks:
       - app-network 
-  app:
+  front:
     build:
       context: "./front"
-    container_name: app
+    container_name: front
     ports:
       - 8001:3000
-    #stdin_open: true
-    #volumes:
-      #- ./front:/usr/src/app
-      #- /usr/src/app/node_modules
-      #- /usr/src/app/.next
+    stdin_open: true
+    volumes:
+      - ./front:/usr/src/app
+      - /usr/src/app/node_modules
+      - /usr/src/app/.next
     networks:
       - app-network
     restart: unless-stopped

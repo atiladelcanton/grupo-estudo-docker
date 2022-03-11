@@ -12,13 +12,11 @@ export class ProductsService {
     private productRepository: Repository<Product>,
   ) { }
   async create(createProductDto: CreateProductDto) {
-    const product = this.productRepository.create(createProductDto)
-    await this.productRepository.save(createProductDto)
-    return product;
-  }
 
+    return await this.productRepository.save(createProductDto);
+  }
   async findAll() {
-    return await this.productRepository.find();
+    return await this.productRepository.find({ relations: ["category"] });
   }
 
   async findOne(id: number): Promise<UpdateProductDto> {
@@ -26,12 +24,12 @@ export class ProductsService {
   }
 
   async update(id: number, updateProductDto: UpdateProductDto) {
-    await this.productRepository.update(id, updateProductDto)
-    return await this.productRepository.findOne({ id })
+    await this.productRepository.update(id, updateProductDto);
+    return await this.productRepository.findOne({ id });
   }
 
   async remove(id: number) {
     await this.productRepository.delete({ id: id });
-    return { deleted: true }
+    return { deleted: true };
   }
 }

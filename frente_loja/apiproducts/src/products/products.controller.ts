@@ -1,4 +1,14 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, HttpStatus, HttpCode } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+  HttpStatus,
+  HttpCode,
+} from '@nestjs/common';
 import { ProductsService } from './products.service';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
@@ -9,6 +19,7 @@ export class ProductsController {
 
   @Post()
   create(@Body() createProductDto: CreateProductDto) {
+
     return this.productsService.create(createProductDto);
   }
 
@@ -18,7 +29,7 @@ export class ProductsController {
 
     return {
       statusCode: HttpStatus.OK,
-      products
+      products,
     };
   }
 
@@ -32,10 +43,13 @@ export class ProductsController {
   }
 
   @Patch(':id')
-  async update(@Param('id') id: string, @Body() updateProductDto: UpdateProductDto) {
+  async update(
+    @Param('id') id: string,
+    @Body() updateProductDto: UpdateProductDto,
+  ) {
     await this.productsService.update(+id, updateProductDto);
     return {
-      statusCode: HttpStatus.OK
+      statusCode: HttpStatus.OK,
     };
   }
 
@@ -44,7 +58,7 @@ export class ProductsController {
   async remove(@Param('id') id: string) {
     await this.productsService.remove(+id);
     return {
-      statusCode: HttpStatus.NO_CONTENT
+      statusCode: HttpStatus.NO_CONTENT,
     };
   }
 }

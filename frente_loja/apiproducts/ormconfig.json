@@ -1,0 +1,11 @@
+[{
+    "name": "default",
+    "type": "mysql",
+    "host": "www.zensolutions.com.br",
+    "port": 3306,
+    "username": "zensolut_estudo",
+    "password": "D0cK3r3$tuD0",
+    "database": "zensolut_microservico_products",
+    "entities": ["./src/**/entities/*.ts"]
+    
+  }]
